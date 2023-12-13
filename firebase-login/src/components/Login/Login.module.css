@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container input::placeholder {
+  color: #e9e3e3;
+  font-style: italic;
+}
+
+.innerBox {
+  background-color: #f7f1f1;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.heading {
+  text-align: center;
+  color: #92aaf0;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: rgb(252, 34, 34);
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0c0c0c;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+span a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+/* Reutilizable en varias partes*/
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer {
+  margin-left: 8px;
+}
+
+.crearCuenta {
+  margin-top: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: auto;
+}
